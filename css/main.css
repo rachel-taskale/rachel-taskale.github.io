@@ -1,0 +1,90 @@
+
+header {
+    text-align: center;
+    background: url("https://www.freepik.com/free-vector/dust-cloud-with-soil-particles-realistic-vector_5900539.htm#page=1&query=png&position=0");
+    background-size: cover;
+    color: #F6844B;
+}
+.leftside, .rightside{
+    height:50vh;
+    width:100%;
+}
+.leftside{
+
+    background-color: #d35b3f;
+}
+.rightside{
+    background-color: #d35b3f;
+
+}
+
+img {
+    margin: 40px 0 0 0;
+    border: 7px solid black;
+    border-radius: 20px;
+    background-color: #d35b3f;
+    }
+h1{
+    font-size: 70px;
+    text-align: center;
+    
+}
+h2{
+color: white;
+text-decoration-color: whit;
+
+}
+.intro{
+color: white;
+}
+ul {
+    padding: 10px;
+    background-color: #d35b3f;
+}
+a {
+    color: white;
+    text-decoration: none; /*-- No underlines below links */
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 5px 100px;
+}
+a.hover {
+    color: white;
+    }
+article {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px; /* top right bottom left */
+    
+}
+.bottom_border{
+    height: 10vh;
+    background-color: #31595E;
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    li {
+        display: block; /*Makes the links stack on top of each other*/
+        padding: 7px 0 7px 0; /*Change the padding to top and bottom now*/
+    }
+    a {
+        padding: 5px 40% 5px 40%; /*Make them easier to click on*/
+    }
+}
+    a.hover {
+    background-color: darkslategrey;
+    }
